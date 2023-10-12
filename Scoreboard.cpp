@@ -8,7 +8,6 @@ vector<int> scoreboard(const string& scoreString) {
     //Словарь для преобразования слов в числа
     map<string, int> wordToNumber = {
         {"nil", 0},
-        {"nil", 0},
         {"one", 1},
         {"two", 2},
         {"three", 3},
