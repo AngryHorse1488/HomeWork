@@ -49,3 +49,17 @@ vector<int> scoreboard(const string& scoreString) {
 
     return result;
 }
+//Ввод тестов
+int main() {
+    string scoreString;
+    getline(cin, scoreString);
+
+    vector<int> score = scoreboard(scoreString);
+
+    for (int num : score) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
