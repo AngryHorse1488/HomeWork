@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string triangle(const std::string& row) {
+string triangle(const string& row) {
     if (row.size() == 1) {
         // Если входная строка содержит только один символ, вернуть его как результат.
         return string(1, row[0]);
